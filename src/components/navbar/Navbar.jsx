@@ -101,7 +101,7 @@ export const Navbar = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="hidden md:block md:flex gap-3">
+        <div className="hidden  md:flex gap-3">
           {buttons.map((button, i) => (
             <button
               key={i}
